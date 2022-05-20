@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #000000 16.62%, #5e2d2dfb 85.61%);
+}
+
+li {
+    list-style-type: none;
+  }
+
+.cabecalho-imagem {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+}
+
+.conteudo-principal {
+    border-top: 0.4px solid #3d1919;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.conteudo-principal-escrito-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: aliceblue;
+    padding-left: 3%;
+}
+
+.conteudo-principal-escrito-paragrafo-1 {
+    border-top: 0.4px solid #3d1919;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    padding: 5%;
+    gap: 40px;
+}
+
+.serviços {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        text-align: center;
+    }
+}
+
+.serviços-1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+}
+
+.serviços-2 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.rodape {
+    font-family:'Sarala', sans-serif;
+    color: aliceblue;
+    border-top: 0.4px solid #492929;
+    background-color: rgb(27, 21, 21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 100%;
+}
+
+.rodape-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
